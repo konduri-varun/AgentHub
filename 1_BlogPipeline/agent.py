@@ -32,6 +32,6 @@ editor_agent = Agent(
 
 # Sequential Agent: Runs agents in order (Outline -> Write -> Edit)
 root_agent = SequentialAgent(
-    name="BlogPipeline",
+    name="1_BlogPipeline",
     sub_agents=[outline_agent, writer_agent, editor_agent],
 )
