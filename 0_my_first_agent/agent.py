@@ -48,7 +48,7 @@ Example: If asked "What is 5 + 7?", write and execute code that prints "12".""",
 # delegates to the appropriate specialized sub-agents.
 root_agent = Agent(
     model="gemini-2.0-flash",                    # LLM for intelligent delegation
-    name="my_first_agent",                       # System name
+    name="0_my_first_agent",                       # System name
     description="A versatile AI agent that can search the web and execute code through specialized sub-agents.",  # Overall capability
     instruction="""You are a helpful AI assistant with access to web search and code execution capabilities through specialized agents.
 
