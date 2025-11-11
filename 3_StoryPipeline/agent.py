@@ -53,6 +53,6 @@ story_refinement_loop = LoopAgent(
 
 # Sequential Agent: Initial write -> Refinement loop
 root_agent = SequentialAgent(
-    name="StoryPipeline",
+    name="3_StoryPipeline",
     sub_agents=[initial_writer_agent, story_refinement_loop],
 )
