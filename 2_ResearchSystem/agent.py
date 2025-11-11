@@ -58,6 +58,6 @@ parallel_research_team = ParallelAgent(
 
 # Sequential Agent: Runs parallel research first, then aggregation
 root_agent = SequentialAgent(
-    name="ResearchSystem",
+    name="2_ResearchSystem",
     sub_agents=[parallel_research_team, aggregator_agent],
 )
